@@ -79,14 +79,25 @@ function redBalloon() {
 
 }
 
-function blueBalloon() {
-  //write code for spwaning blue balloons
+function greenBalloon() {
+  for(var i=160; i<250; i=i+60){
+    blue_balloon=createSprite(150,i,10,10);
+    blue_balloon.addImage(blue_balloonImage);
+    blue_balloon.scale=0.1
+    
 }
 
-function greenBalloon() {
-  //write code for spwaning green balloons
+function blueBalloon() {
+  for(var i=160; i<250; i=i+60){
+    blue_balloon=createSprite(150,i,10,10);
+    blue_balloon.addImage(blue_balloonImage);
+    blue_balloon.scale=0.1
+    
 }
 
 function pinkBalloon() {
-  //write code for spwaning pink balloons
+  for(var i=200; i<250; i=i+60){
+    pink_balloon=createSprite(200,i,10,10);
+    pink_balloon.addImage(pink_balloonImage);
+    pink_balloon.scale=1.2
 }
